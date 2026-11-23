@@ -1,0 +1,38 @@
+{
+  "name": "UAV_ALTITUDE_SYNTHETIC_V1",
+  "frozen_utc": "2026-11-02T09:13:27.276251+00:00",
+  "seeds": [
+    720110,
+    720111,
+    720112,
+    720113,
+    720114,
+    720115
+  ],
+  "excitation": [
+    0.0,
+    0.3
+  ],
+  "nodes": 6,
+  "blocks": 36,
+  "transitions_per_block": 48,
+  "dt_seconds": 0.1,
+  "altitude_reference_m": 30,
+  "a": 0.95,
+  "eta": 0.13333333333333333,
+  "sigma": 0.03,
+  "geometry": "sample-and-hold horizontal positions per block; center U[-22,22]^2 plus 8*sin(phase+rate*t); rate U[.04,.10]",
+  "edge": "1[d<35m]*exp(-(d/25m)^2)",
+  "signal": "altitude error about 30m under ideal first-order anchored consensus; full states and known increments available",
+  "inference": "unchanged OldActor support readout and author hard-box sparse EKF tau=.1; existing model grid/transition; no tuning",
+  "decision": "one-step counterfactual altitude correction u=clip(-Fhat*s/2,-1,1); shared terminal state and disturbance, cost ||Ftrue*s+u+wind||^2+||u||^2; no_graph uses .95I; truth graph evaluator only",
+  "metrics": [
+    "edge relative error",
+    "all-eigenvalue relative error",
+    "seconds including statistics inference full EVD",
+    "one-step quadratic decision cost"
+  ],
+  "success_rule": "report all panels; no selected seeds; no significance from blocks; no claim of full flight or unique advantage of spectral representation",
+  "budget_seconds": 1800,
+  "threads": 1
+}

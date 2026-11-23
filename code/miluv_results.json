@@ -1,0 +1,105 @@
+{
+  "methods": [
+    "proposed",
+    "sparse_ekf",
+    "persistence"
+  ],
+  "rows": [
+    {
+      "recording": "cir_3_random3_1",
+      "node_predictions": 5760,
+      "squared_error": [
+        1.9215440423729044,
+        1.9400889777824049,
+        1.9215440423729044
+      ]
+    },
+    {
+      "recording": "cir_3_random3_2",
+      "node_predictions": 5904,
+      "squared_error": [
+        2.1450146491963213,
+        2.1711053915679397,
+        2.1450146491963213
+      ]
+    },
+    {
+      "recording": "cirObstacles_3_random_0",
+      "node_predictions": 2160,
+      "squared_error": [
+        0.6626940774935033,
+        0.733962592941616,
+        0.6626940774935033
+      ]
+    },
+    {
+      "recording": "default_3_random_0",
+      "node_predictions": 2160,
+      "squared_error": [
+        0.6445517238191623,
+        0.6695066640806994,
+        0.6445517238191623
+      ]
+    },
+    {
+      "recording": "default_3_random_0b",
+      "node_predictions": 2592,
+      "squared_error": [
+        0.6683284122596268,
+        0.6729822725446848,
+        0.6683284122596268
+      ]
+    },
+    {
+      "recording": "default_3_random2_0",
+      "node_predictions": 5904,
+      "squared_error": [
+        1.546304986504012,
+        1.9565047672389053,
+        1.525667883597355
+      ]
+    },
+    {
+      "recording": "default_3_random3_1",
+      "node_predictions": 5904,
+      "squared_error": [
+        2.066334384337954,
+        2.08873767379559,
+        2.066334384337954
+      ]
+    },
+    {
+      "recording": "default_3_random3_2",
+      "node_predictions": 5904,
+      "squared_error": [
+        2.135672859649058,
+        2.131840242238372,
+        2.1040712276188174
+      ]
+    },
+    {
+      "recording": "noAprilTags_3_random3_2b",
+      "node_predictions": 5904,
+      "squared_error": [
+        2.141587244039462,
+        2.162607467232704,
+        2.141587244039462
+      ]
+    },
+    {
+      "recording": "oneTagPerRobot_3_random_0",
+      "node_predictions": 2736,
+      "squared_error": [
+        0.6871842560926547,
+        0.741139752381556,
+        0.6871842560926547
+      ]
+    }
+  ],
+  "node_predictions": 44928,
+  "rmse_metres": [
+    0.01803862822300628,
+    0.01843483689650013,
+    0.018006370734760933
+  ]
+}

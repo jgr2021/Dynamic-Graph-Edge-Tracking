@@ -1,0 +1,27 @@
+{
+  "sources": {
+    "common.py": "959f82e06e50e13798930f89b8f4c69b0c023f6f4426d25d0ee08c69f5f1f658",
+    "kernel_actor_v60.py": "cbf8d38792f8ecb06f45e922841deb0e47282ab3438cf288b937531771fa9cda",
+    "run_v60.py": "6b9b6b314aee370018e0c514016bb2d52b1dfc6de9c66ac30525f1719d42e193",
+    "PROTOCOL_V60.json": "c832207f15f3c57b11cb9bae79a6f61fa954345e5d4a4cd93221617edce73aa7"
+  },
+  "inputs": {
+    "continuation_20261026_storage_repair_v54a/runs/formal/MODEL_single.npz": "66ce063f3b6c0e035d1f89ddeaa1f84764e8f975e56b0fd5072e17e7448af748",
+    "continuation_20261024_fixed_star_development_v16/fast_ewls.py": "e9aac73bf4f44bad59e10932a38a6e6783cbf2f1b7ab00b3cad129f96e9e7ebc",
+    "continuation_20261024_fixed_star_development_v16/l0_kf.py": "b5b72432c41128a138b6645e35cafdae085c4d4116b89d7a24a0695cc2041968",
+    "continuation_20261024_fixed_star_development_v16/matched_kf.py": "f6c27a2e7664f87debce91a2524189460ce2b5cfe61ea51ae38fcf68138c5b5e",
+    "continuation_20261024_fixed_star_development_v16/node_updates.py": "60b625cc5d63b94a321b917e83979a79e486fb857cd7826461deed616e9c1dca",
+    "continuation_20261024_fixed_star_development_v16/spectral.py": "0907921b2dbac982f4d731a3af67d1f4ad0ef3316e5871dbf96d20982305f70f",
+    "continuation_20261024_fixed_star_development_v16/structured_stats.py": "66e3ead8d7d43db80b3538766df5f749dc23c579b48f8c6408f9eb63be45356e",
+    "continuation_20261024_fixed_star_development_v16/vendor/spectrum_fast.py": "b4c253d9c187dc0383f21637601730965902b3fbf29a2395bd928fc60c40ce7e",
+    "continuation_20261024_incidence_statistics_v21/fast_statistics_v21.py": "c55ca592a3df025d2703d11aed7233443cd7739b06ebcfc6fa59db99e1d035bf",
+    "continuation_20261024_gaussian_center_development_v24/center_kf_v24.py": "1e6dbf9032eb4ebcab60cdaa9386b3795470fc0721f83d785c2353b7532eae7e",
+    "continuation_20261025_atomic_nodes_v46/atomic_nodes.py": "cccedcdc135d8ee4ca4b088ceca66b3f347d762af57e785cd13843d70659a30f",
+    "continuation_20261025_temporal_kernel_design_v47/temporal_kernel.py": "26b975ef2789f7bdda3d5f8729f9064b426d5c632a111e691a4e24ca89568f3f",
+    "continuation_20261025_support_memory_design_v50/actors_v50.py": "6a5a298487f0689c4439dda4256b4f4a3a88c09ca0d931945611d7674ec7fb70",
+    "continuation_20261025_pair_recursive_v52/actors_v52.py": "4dee886e24eef11d9e53b3cc0fe50730541e63580a2f2b47881e5e9d83aaf4af",
+    "continuation_20261025_pair_recursive_v52/pair_actor_v52.py": "97d8d30f3ec3727c3e216dc1f1fc1918050d43924ba61595d30338bceed6e3d4",
+    "continuation_20261025_author_baselines_v53/actors_v53.py": "6a39681e7406ad00f094996ced64b090f6896b5752577018ae419447183ca0cb",
+    "continuation_20261025_author_baselines_v53/author_actor_v53.py": "63e8b8d629ab74e792e79c3a35e100a2a1e166b2fc424118571a06d784ed796b"
+  }
+}

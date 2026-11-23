@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.nbc
+*.nbi
+theta_u_independent_20261027/runs/
+theta_u_independent_20261027/*.json
+theta_u_probssm_comparison_20261027/runs/
+theta_u_probssm_comparison_20261027/*.json
+theta_u_spl_review_round2_20261102/uav_run/
+theta_u_topology_20261023/baseline_polyekf_source_20261025/
+

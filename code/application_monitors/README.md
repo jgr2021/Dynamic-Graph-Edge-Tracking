@@ -1,0 +1,3 @@
+# Synthetic application benchmarks
+
+From the repository's `code` directory run `python application_monitors/applications.py .`. The script writes `application_results.json` next to itself with truth and estimates for each block. Each scenario uses eight seeded trajectories, four routes and 32 blocks per trajectory. All plant and inventory observations are synthetic. RMSE of normalized weights for the recursive and blockwise bounded least-squares estimators, respectively, is 0.08586 and 0.12880 for tank conductance, and 0.01507 and 0.01256 for dispatch fractions. All 11 capped inventory updates are included.
